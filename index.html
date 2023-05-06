@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+      <div style="background-color:skyblue; border: 2px solid skyblue; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h2>Αλέξανδρος Τσουχνένκο</h2>
+        <div>
+          <div class="result outputFontBig" id="result">
+             
+          </div>
+          <button onclick="addtostack('7')" class="buttons">
+            7
+          </button>
+          <button onclick="addtostack('8')" class="buttons">
+            8
+          </button>
+          <button onclick="addtostack('9')" class="buttons">
+            9
+          </button>
+          <div></div>
+          <button onclick="addtostack('4')" class="buttons">
+            4
+          </button>
+          <button onclick="addtostack('5')" class="buttons">
+            5
+          </button>
+          <button onclick="addtostack('6')" class="buttons">
+            6
+          </button>
+          <div></div>
+          <button onclick="addtostack('1')" class="buttons">
+            1
+          </button>
+          <button onclick="addtostack('2')" class="buttons">
+            2
+          </button>
+          <button onclick="addtostack('3')" class="buttons">
+            3
+          </button>
+          <div></div>
+          <button onclick="addsign('+')" class="prosima_buttons">
+            +
+          </button>
+          <button onclick="addtostack('0')" class="buttons">
+            0
+          </button>
+          <button onclick="addsign('*')" class="prosima_buttons">
+            x
+          </button>
+          <div></div>
+          <button onclick="addsign('/')" class="prosima_buttons">
+            /
+          </button>
+          <button onclick="calcResult()" class="prosima_buttons">
+            =
+          </button>
+          <button onclick="addsign('-')" class="prosima_buttons">
+            -
+          </button>
+          <div></div>
+          <button onclick="clearResult()" class="clear_button">
+            clear
+          </button>
+          <button onclick="addtostack('.')" class="dot_button">
+            .
+          </button>
+        </div>
+      </div>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>

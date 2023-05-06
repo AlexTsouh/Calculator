@@ -1,0 +1,68 @@
+.buttons {
+    width: 50px;
+    height: 50px;
+    border: none;
+    box-shadow: inset 0 0 50px gray;
+    margin: 4px;
+  }
+  .buttons:hover{
+    box-shadow: inset 0 0 25px gray;
+  }
+
+  .prosima_buttons {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border: none;
+    box-shadow: inset 0 0 50px orange;
+    margin: 4px;
+  }
+  .prosima_buttons:hover{
+    box-shadow: inset 0 0 25px orange;
+  }
+
+  .clear_button {
+    width: 81px;
+    height: 50px;
+    background-size: cover;
+    border: none;
+    box-shadow: inset 0 0 50px orangered;
+    margin: 4px;
+  }
+  .clear_button:hover{
+    box-shadow: inset 0 0 100px red;
+  }
+
+  .dot_button {
+    width: 81px;
+    height: 50px;
+    background-size: cover;
+    border: none;
+    box-shadow: inset 0 0 50px grey;
+    margin: 4px;
+  }
+  .dot_button:hover{
+    box-shadow: inset 0 0 100px grey;
+  }
+
+  .result {
+    height: 50px;
+    width: 174px;
+    box-shadow: inset 0 0 50px lightgray;
+    margin: 4px;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .outputFontBig{
+    font-size: 38px;
+  }
+
+  .outputFontSmall{
+    font-size: 20px;
+  }
